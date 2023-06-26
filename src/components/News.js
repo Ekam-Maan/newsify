@@ -3,7 +3,6 @@ import propTypes from "prop-types";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 import NewsItem from "./NewsItem";
-import Spinner from "./Spinner";
 
 export default class News extends Component {
   static defaultProps = {
